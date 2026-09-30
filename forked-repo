@@ -1,0 +1,10 @@
+Command:
+curl.exe -L https://api.github.com/repos/Rimsha247/github-final-project | Select-String '"full_name"|"fork"'
+
+Terminal Output:
+"full_name": "Rimsha247/github-final-project",
+"fork": true,
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+"fork": false,
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+"fork": false,
